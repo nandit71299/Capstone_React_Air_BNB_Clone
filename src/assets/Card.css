@@ -1,0 +1,45 @@
+.Experiences--Image {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.Experiences--Card {
+    position: relative;
+}
+
+.Experiences--Card--CardStrip {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.Experiences--Card--Rating {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Experiences--Card--Info--Container--Title {
+    margin-top: 5px;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.Experiences--Card--Info--Container--Price {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}

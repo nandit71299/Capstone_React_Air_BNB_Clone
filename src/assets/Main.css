@@ -1,0 +1,44 @@
+.Main--Message {
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-size: 1em;
+}
+
+.Main--Heading {
+    font-size: 2em;
+}
+
+.Main--Container {
+    padding: 30px;
+}
+
+.Main--Cards {
+    display: flex;
+    padding-bottom: 30px;
+    gap: 50px;
+    overflow-x: scroll;
+    justify-content: start;
+}
+
+.Main--Cards::-webkit-scrollbar {
+    width: 8px;
+    /* Width of the scrollbar */
+    height: 8px;
+    /* Height of the horizontal scrollbar */
+}
+
+.Main--Cards::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Background of the track */
+    border-radius: 10px;
+}
+
+.Main--Cards::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+}
+
+.Main--Cards::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the scrollbar thumb on hover */
+}
